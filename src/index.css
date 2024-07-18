@@ -1,0 +1,375 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+nav ul li{
+  display: inline;
+}
+
+
+.rcontainer{
+  display: flex;
+  justify-content: space-around;
+}
+
+.hero{
+  background-image: url(../public/comeb.jpg);
+  overflow:hidden;
+  height: 150vh;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo{
+  background-image: url(../public/greenbelthotellogo.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  width: px;
+  height: 12vh;
+  margin-left:3px;
+  margin-top: 30px;
+}
+
+.bs{
+  font-family: tahoma;
+  font-size: 17px;
+  position: absolute;
+  margin-top: 170px;
+  margin-left: 110px;
+  color: #F1FAFF;
+}
+.wrd{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 115px;
+  position: absolute;
+  margin-top: 200px;
+  margin-left: 110px;
+  color: #F1FAFF;
+  font-weight: lighter;
+}
+button{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  position: absolute;
+  margin-top: 620px;
+  margin-left: 130px;
+  color: #F1FAFF;
+  background: none;
+  border: 1px solid #F1FAFF;
+  border-radius: 50px;
+  width: 250px;
+  height: 11vh;
+}
+
+.tptx{
+  margin-top: 150px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 65px;
+  color: rgba(0, 0, 0, 0.849);
+  font-weight: 50;
+}
+
+.tptxl{
+  margin-top: 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: rgba(0, 0, 0, 0.849);
+  font-weight: 50;
+}
+
+button.rd{
+  color: black;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 750px;
+  border: 1px solid black;
+  width: 250px;
+}
+
+.dinbar{
+  margin-top: 400px;
+  display: flex;
+  position: relative;
+  background-color: rgb(249,247,245);
+}
+
+.dinbar .dinimg{
+  background-image: url(../public/dinning.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 55%;
+  height: 80vh;
+}
+
+.dintxt{
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.dintpt{
+  font-family: times;
+  font-size: 80px;
+}
+
+.dintbt{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  width: 520px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.774);
+}
+
+button.dinbt{
+  color: black;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 0px;
+  border: 1px solid black;
+  width: 200px;
+}
+
+.ach{
+  margin-top: 250px;
+  margin-left: 180px;
+  margin-bottom: 150px;
+}
+
+.achtxt{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 60px;
+}
+
+.achtxtb{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: larger;
+}
+
+.num{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 140px;
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.815);
+}
+
+.nums{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.numwrds{
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 45px;
+}
+
+.numwrd{
+  font-family: century;
+  font-size: 20px;
+  font-weight: normal;
+  margin-bottom: 150px;
+}
+
+.exb{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  margin-left: 150px;
+}
+.rmgs{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 50px;
+  margin-top:50px;
+}
+
+
+.rmgstw1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 27px;
+  margin-left: 130px;
+  margin-right: 0px;
+  margin-top: 10px;
+}
+.rmgstw2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 27px;
+  margin-left: 680px;
+  margin-right: 0px;
+  margin-top: -27px;
+}
+.rmgstw3{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 27px;
+  margin-left: 1230px;
+  margin-right: 0px;
+  margin-top: -30px;
+}
+
+.cbg{
+  background-color: rgba(128, 128, 128, 0.226);
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 25px;
+}
+
+input.enteries{
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  border: 1px white;
+}
+
+textarea{
+  width: 400px;
+  height: 30px;
+  font-family: tahoma;
+  border: white;
+}
+
+.cbt{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+}
+
+.cbh{
+  font-family: tahoma;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.781);
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+button.sub{
+  background: #000;
+  color: white;
+  margin-top: 0px;
+  margin-left: 0px;
+  width: 6%;
+  border-radius: 10%;
+  height: 40px;
+  margin-top: 50px;
+  margin-left: -400px;
+}
+
+.cbgf{
+  margin-left: 100px;
+  margin-top: 150px;
+}
+iframe{
+  height: 750px;
+}
+
+.parent{
+  justify-content: center;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.subshead{
+  font-size: 60px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: light;
+}
+
+.subsdesc{
+  font-size: 20px;
+  font-family: tahoma;
+}
+
+form{
+  width: 55%;
+  text-align: center;
+  border: 1px solid lightgray;
+  margin-top: 30px;
+  margin-left: 400px;
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+
+.frmhd{
+  font-size: 25px;
+  font-family: tahoma;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+input{
+  width: 90%;
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+input:placeholder-shown{
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+form button.newsl{
+  color: white;
+  background-color: black;
+  width: 100px;
+  font-size: 18px;
+  height:50px;
+  margin-bottom: 10px;
+  margin-top: 0;
+  margin-left: 0;
+  border-radius: 5px;
+  position: relative     ;
+}
+
+.Footer{
+  background-color: rgba(211, 211, 211, 0.185);
+  width: 99%;
+  height: 70vh;
+}
+
+.abt{
+  margin-left: 150px;
+}
+
+.abt .abouthd{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 45px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.abt .abouttxt{
+  font-family: lucida Sans;
+  font-size: 20px;
+  width: 370px;
+}
+
+/* .link .quick{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 45px;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.links a{
+  display: block;
+  text-decoration: none;
+  color: black;
+} */
